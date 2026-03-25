@@ -22,10 +22,19 @@
 
     body {
       font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", sans-serif;
-      background: #fff;
+      /* background: #fff; */
       color: var(--text-gray);
       -webkit-font-smoothing: antialiased;
       overflow-x: hidden;
+      background-image: url("/assets/gradient.jpg");
+      background-size: cover;
+      /* fills entire screen */
+      background-position: center;
+      /* keeps it centered */
+      background-repeat: no-repeat;
+      /* prevents tiling */
+      min-height: 100vh;
+      /* ensures full height */
     }
 
     .hero {
@@ -205,8 +214,7 @@
     <article class="card card-1">
       <div class="card-content">
         <div class="image-container">
-          <div class="image-box"
-            style="background-image: url('assets/solution1.jpg');">
+          <div class="image-box" style="background-image: url('assets/solution1.jpg');">
           </div>
         </div>
         <div class="text-container">
@@ -227,8 +235,7 @@
     <article class="card card-2">
       <div class="card-content">
         <div class="image-container">
-          <div class="image-box"
-            style="background-image: url('assets/solution2.jpg');">
+          <div class="image-box" style="background-image: url('assets/solution2.jpg');">
           </div>
         </div>
         <div class="text-container">
@@ -249,8 +256,7 @@
     <article class="card card-3">
       <div class="card-content">
         <div class="image-container">
-          <div class="image-box"
-            style="background-image: url('assets/solution3.jpg');">
+          <div class="image-box" style="background-image: url('assets/solution3.jpg');">
           </div>
         </div>
         <div class="text-container">
